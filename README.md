@@ -1,3 +1,0 @@
-# Mi24 | Portal Templates
-
-...
