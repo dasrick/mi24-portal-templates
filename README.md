@@ -1,1 +1,3 @@
 # mi24-portal-templates
+
+Just checkout, switch to branch `gh-pages` and enjoy ...
