@@ -25,6 +25,7 @@
     "grunt-autoprefixer": "^2.1.0",
     "grunt-cli": "~0.1.13",
     "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-copy": "^0.7.0",
     "grunt-simple-watch": "~0.1.2",
     "load-grunt-tasks": "^2.0.0",
     "time-grunt": "^1.0.0"
