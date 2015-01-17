@@ -4,10 +4,49 @@
     <meta charset="UTF-8">
     <title>Mi24 | UIT</title>
     <link rel="stylesheet" href="./css/style.css">
+
+    <style type="text/css">
+        x-mi24-home {
+            color: #f00;
+            position: fixed;
+            top: 15px;
+            left: 15px;
+        }
+    </style>
 </head>
 <body>
 
-UIT 1
+<div class="outer">
+    <header>header</header>
+    <main>
+        <aside class="col-left">
+            <section class="section-channels">
+                section-channels
+            </section>
+        </aside>
+        <aside class="col-main-right">
+            <section class="section-">section-head</section>
+            <section class="section-video-player">
+                <mi24-video-player video-id="-UviNgKG9cYigkedeT62Yi" player-id="6NSbSfzcgFRofKB5JFh3u_" config-type="vmpro" flash-path="//e-demo.video-cdn.net/v1/" api-url="//d-demo.video-cdn.net/play"></mi24-video-player><script src="//e-demo.video-cdn.net/v1/embed.js"></script>
+            </section>
+            <section class="section-video-list">section-video-list</section>
+        </aside>
+    </main>
+    <footer>
+        <aside class="col-left">
+            <a class="footer-vr" href="http://www.werte-schaffen-werte.de" target="_blank">
+                <img title="Genossenschaftliche FinanzGruppe Volksbanken Raiffeisenbanken"
+                     alt="Genossenschaftliche FinanzGruppe Volksbanken Raiffeisenbanken"
+                     src="http://www.union-investment.de/img/footer.vr.gif">
+            </a>
+        </aside>
+        <aside class="col-main-right"></aside>
+    </footer>
+</div>
 
+
+<x-mi24-home>
+    <a href="../">mi24</a>
+</x-mi24-home>
 </body>
 </html>
