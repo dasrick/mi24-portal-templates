@@ -8,6 +8,10 @@
 
 @footer-height: 63px;
 
+@box-border-color: #d1d3d2; // from website
+
+@uit-blue1: #00f;
+
 html {
   height: 100%
 }
@@ -30,6 +34,15 @@ html {
 img {
   display: inline;
   border: 0
+}
+
+
+ul.horizontal {
+  list-style: none;
+  display: block;
+  li {
+    display: inline;
+  }
 }
 
 body {
@@ -96,6 +109,22 @@ footer {
         margin-top: 25px;
         display: block;
       }
+    }
+  }
+}
+
+ul.video-list {
+  li {}
+}
+
+ul.video-list-type-1 {
+  li {
+    border-bottom: 1px solid @box-border-color;
+    &:nth-child(odd) {
+      background-color: #f00;
+    }
+    &:nth-child(even) {
+      background-color: #0f0;
     }
   }
 }

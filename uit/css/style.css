@@ -32,6 +32,13 @@ img {
   display: inline;
   border: 0;
 }
+ul.horizontal {
+  list-style: none;
+  display: block;
+}
+ul.horizontal li {
+  display: inline;
+}
 body {
   background-color: #f6f6f6;
   height: 100%;
@@ -85,4 +92,13 @@ footer {
 footer > aside.col-left .footer-vr {
   margin-top: 25px;
   display: block;
+}
+ul.video-list-type-1 li {
+  border-bottom: 1px solid #d1d3d2;
+}
+ul.video-list-type-1 li:nth-child(odd) {
+  background-color: #f00;
+}
+ul.video-list-type-1 li:nth-child(even) {
+  background-color: #0f0;
 }
